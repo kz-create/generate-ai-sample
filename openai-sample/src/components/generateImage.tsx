@@ -34,6 +34,7 @@ export const GenerateImage = (props) => {
 		{ name: "フライパン", id: "2", imagePath: "asset/fryingpan.png" },
 		{ name: "スニーカー", id: "3", imagePath: "asset/sneakers_01_red.png" },
 		{ name: "掃除機", id: "4", imagePath: "asset/souziki.png" },
+		{ name: "冷蔵庫", id: "5", imagePath: "asset/reizoko.png" },
 	];
 	const [selectedItem, setSelectedItem] = useState<string>("");
 	const [prompt, setPrompt] = useState<string>("");
@@ -49,7 +50,7 @@ export const GenerateImage = (props) => {
 				<Select
 					label="商品を選択してください"
 					placeholder="Pick value"
-					data={["調理家電", "フライパン", "スニーカー", "掃除機"]}
+					data={["調理家電", "フライパン", "スニーカー", "掃除機", "冷蔵庫"]}
 					clearable
 					size="sm"
 					value={selectedItem}

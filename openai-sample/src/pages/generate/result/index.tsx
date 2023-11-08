@@ -43,7 +43,7 @@ export default function GenerateResultPage() {
 			});
 			if (!response.ok) {
 				console.log("error status: ", response.status);
-				return;
+				return <>エラーが発生しました</>;
 			}
 
 			response
