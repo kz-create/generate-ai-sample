@@ -1,5 +1,5 @@
 {
-  "name": "generate-ai-sample",
+  "name": "openai-sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,26 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
     "@mantine/core": "^7.2.0",
     "@mantine/dropzone": "^7.2.0",
+    "@mantine/form": "^7.2.1",
     "@mantine/hooks": "^7.2.0",
-    "@mui/icons-material": "^5.14.11",
-    "@mui/material": "^5.14.11",
     "fs": "^0.0.1-security",
-    "next": "13.5.4",
+    "next": "14.0.1",
     "openai": "^4.13.0",
     "react": "^18",
     "react-dom": "^18"
   },
-  "browser": {
-    "fs": false,
-    "os": false,
-    "path": false
-  },
   "devDependencies": {
-    "@types/node": "^20.9.0",
-    "typescript": "^5.2.2"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }
